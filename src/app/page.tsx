@@ -125,20 +125,20 @@ export default function HomePage() {
 
             {/* Quick Demo Accounts Banner for Evaluators */}
             <div className="pt-6">
-              <div className="inline-flex flex-wrap items-center justify-center gap-2 p-2 rounded-2xl bg-slate-100/80 dark:bg-slate-800/80 border border-slate-200/80 dark:border-slate-700 text-xs">
-                <span className="text-slate-500 font-semibold flex items-center gap-1.5 px-2">
-                  <Shield className="w-3.5 h-3.5 text-emerald-500" />
+              <div className="inline-flex flex-wrap items-center justify-center gap-2 p-2 rounded-2xl bg-gradient-to-r from-emerald-600 to-teal-600 shadow-lg shadow-emerald-500/25 text-xs">
+                <span className="text-white/90 font-semibold flex items-center gap-1.5 px-2">
+                  <Shield className="w-3.5 h-3.5 text-white" />
                   Instant Testing:
                 </span>
                 <button
                   onClick={() => switchDemoRole('organizer')}
-                  className="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 font-semibold text-slate-800 dark:text-white shadow-sm border border-slate-200 dark:border-slate-700 hover:text-emerald-600 transition-colors"
+                  className="px-3 py-1.5 rounded-xl bg-white font-bold text-emerald-700 shadow-sm hover:bg-emerald-50 transition-colors"
                 >
                   Login as Organizer (Sarah Jenkins)
                 </button>
                 <button
                   onClick={() => switchDemoRole('volunteer')}
-                  className="px-3 py-1.5 rounded-xl bg-white dark:bg-slate-900 font-semibold text-slate-800 dark:text-white shadow-sm border border-slate-200 dark:border-slate-700 hover:text-teal-600 transition-colors"
+                  className="px-3 py-1.5 rounded-xl bg-white font-bold text-teal-700 shadow-sm hover:bg-teal-50 transition-colors"
                 >
                   Login as Volunteer (Alex Rivera)
                 </button>
