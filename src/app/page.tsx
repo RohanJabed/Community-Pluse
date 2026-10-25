@@ -93,7 +93,7 @@ export default function HomePage() {
             </div>
 
             {/* Main Headline */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight text-slate-950 dark:text-white leading-[1.15]">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight leading-[1.15]" style={{ color: 'var(--foreground)' }}>
               Empower Communities.{' '}
               <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
                 Mobilize Volunteers.
@@ -101,7 +101,7 @@ export default function HomePage() {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-base sm:text-lg text-slate-700 dark:text-slate-300 leading-relaxed max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg leading-relaxed max-w-2xl mx-auto" style={{ color: '#334155' }}>
               A comprehensive platform for grassroots organizations to publish community initiatives, define volunteer requirements, and track check-ins with AI assistance and digital QR tickets.
             </p>
 
