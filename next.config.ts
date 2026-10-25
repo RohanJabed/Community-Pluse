@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
     },
   },
   async rewrites() {
+    if (process.env.NODE_ENV === 'production') return [];
     return [
       {
         source: '/api/:path*',
